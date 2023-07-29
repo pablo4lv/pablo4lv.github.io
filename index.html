@@ -1,1 +1,98 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="shortcut icon" href="smile.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Portfolio</h1>
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobremi">Sobre mí</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+  </header>
+
+  <section id="inicio">
+    <img src="img.png">
+    <h2>Bienvenido a mi portfolio</h2>
+    <p>Hola, mi nombre es Enzo Alvarez. Este es mi primer portfolio, realizado con
+      lo aprendido durante las primeras semanas de Jovenes a Programar.
+    </p>
+  </section>
+
+  <section id="sobremi">
+    <h2>Acerca de mi</h2>
+    <p> 
+      Soy estudiante de Ingeniería en Computación, 
+      me encantan las matemáticas, la programación y la tecnología.
+      Me paso el día inmerso en el mundo de la informática, y
+      me emociona estar al tanto de las últimas novedades tecnológicas.
+    </p>
+  </section>
+
+  <section id="educacion">
+    <h2>Educación</h2>
+        <table class="tabla-educacion">
+            <tr class="bc">
+                <th>Título</th>
+                <th>Entidad</th>
+                <th>Promoción</th>
+            </tr>
+            <tr>
+                <td>Ingeniería en computación</td>
+                <td>Udelar(Facultad de Ingeniería)</td>
+                <td>En curso</td>
+            </tr>
+            <tr>
+                <td>Desarrollo Web</td>
+                <td>Plan Ceibal(Jóvenes a Programar)</td>
+                <td>En curso</td>
+            </tr>
+        </table>
+  </section>
+  
+  <hr>
+
+  <div id="centro">
+    <section id="sociales">
+      <h2>Perfiles sociales</h2>
+          <p>Puedes encontrarme en:</p>
+          <ul class="perfiles-sociales">
+              <li><a href="#">EnzoAlvarez</a></li>
+              <li><a href="https://github.com/pablo4lv">Github</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Linkedin</a></li>
+              <li><strong>Teléfono: +598 98 341 984</strong></li>
+          </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+          <form>
+              <label for="name">Para:</label>
+              <input type="text" name="para" id="para"> <br><br>
+              <label for="tematica">Temática:</label>
+              <select name="tematica" id="tematica">
+                  <option value="elige"hidden selected disabled>-Elige un tema-</option>
+                  <option value="consulta">Consulta</option>
+                  <option value="propuesta">Propuesta</option>
+                  <option value="reporte">Reporte</option>
+                  <option value="otro">Otro</option>
+              </select> <br><br>
+              <label for="asunto">Asunto:</label>
+              <input type="text" name="asunto" id="asunto"> <br><br>
+              <label for="cuerpo">Cuerpo:</label>
+              <textarea id="cuerpo" name="cuerpo"></textarea>
+              <input type="submit" value="Enviar">
+          </form>
+    </section>
+  </div>
+
+</body>
+</html>

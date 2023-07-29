@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0% 5%;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  ul.menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul.menu li {
+    margin-right: 10px;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  #inicio {
+    background-color: #f1f1f1;
+  }
+  
+  table.tabla-educacion {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table.tabla-educacion th,
+  table.tabla-educacion td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  ul.perfiles-sociales li {
+    margin: 5px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #centro {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 10%;
+  }
+  
+  img {
+    height: 8em;
+    width: em;
+    border-radius: 50%;
+    position: static;
+    float: left;
+    margin: 0% 3%;
+  }
+  
+  .bc {
+    background-color: #f1f1f1;
+  }
